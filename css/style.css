@@ -1,0 +1,235 @@
+/* Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6fb;
+}
+
+/* Header */
+.header {
+    background-color: #4b7bec;
+    color: white;
+    padding: 15px 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navigation */
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+}
+
+/* Main content */
+.content {
+    padding: 40px;
+}
+
+.content h1 {
+    margin-bottom: 15px;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+/* Home page hero section */
+.hero {
+    height: 400px;
+    
+
+    background-size: cover;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("https://www.dutchnews.nl/wpcms/wp-content/uploads/2020/04/Depositphotos_172581458_l-2015.jpg");
+    background-position: center;
+
+    color: white;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+
+
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Services Page */
+.services-section {
+    padding: 40px;
+    text-align: center;
+    
+}
+
+.services-section h1 {
+    margin-bottom: 30px;
+   
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 900px;
+    margin: auto;
+    
+}
+
+.service-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+   
+    
+}
+
+.service-card h3 {
+    margin-bottom: 10px;
+    color: #4a78e0;
+    
+}
+
+.service-card p {
+    color: #555;
+    font-size: 15px;
+}
+
+/* Service icons */
+.service-card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+/* Jobs Page */
+.jobs-section {
+    padding: 60px 40px;
+    background-color: #f4f7fb;
+    text-align: center;
+}
+
+.jobs-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.job-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.job-card h3 {
+    margin-bottom: 10px;
+    color: #4a78e0;
+}
+
+.job-card p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.job-card button {
+    padding: 8px 16px;
+    background-color: #4a78e0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.job-card button:hover {
+    background-color: #365dc9;
+}
+
+/* Donate Page */
+.donate-section {
+    padding: 60px 40px;
+    background-color: #f4f7fb;
+    text-align: center;
+}
+
+.donate-section p {
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.donate-form {
+    max-width: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.donate-form input,
+.donate-form select,
+.donate-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.donate-form textarea {
+    resize: none;
+    height: 80px;
+}
+
+.donate-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4a78e0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.donate-form button:hover {
+    background-color: #365dc9;
+}
+/* Footer */
+.footer {
+    background-color: #2f3542;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+    margin-top: 60px;
+}
+
+.footer h3 {
+    margin-bottom: 8px;
+}
+
+.footer p {
+    font-size: 14px;
+    margin: 4px 0;
+    color: #dcdde1;
+}
