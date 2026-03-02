@@ -3,7 +3,7 @@ function login() {
     var password = document.getElementById("password").value;
 
     // Demo credentials
-    if (email === "kpraveenkumar7022@gmail.com" && password === "1234") {
+    if (email === "kpraveenkumar7022@gmail.com" && password === "12345") {
         alert("Login successful!");
         window.location.href = "index.html";
 
